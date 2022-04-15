@@ -1,0 +1,127 @@
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+h1{
+	font-family: 'Nanum Brush Script', cursive;
+	font-size: 3.5rem;
+	color: #ffff;
+	margin: 10px 0px;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	color: #000;
+}
+header{
+	display: flex;
+	background-color: #8F2727 ;
+	justify-content: center;
+	width: 100%;
+}
+.Fondo1{
+	width: 100%;
+	height: 87%;
+	object-fit: cover;
+	position:absolute ;
+	opacity: .65;
+
+}
+.container{
+	display: flex;
+	margin: 0px 15px;
+	justify-content: center;
+	
+
+
+}
+.container-items{
+	margin: 15px 0px;
+	display: flex;
+	align-self: center;
+	background-color: #E4E4E4 ;
+	width: 550px;
+	height: 80vh;
+	z-index: 10;
+	opacity: .85;
+	justify-content: center;
+	border: 4px solid #ADAA88;
+	border-radius: 15px;
+}
+.items{
+	margin: 15px 0px;
+}
+
+.format{
+	display: flex;
+	align-items: center;
+	border: 3px solid #8F2727;
+	border-radius: 15px;
+	width: 75%;
+	margin-left: 15px;
+	height: 25px;
+}
+.fa-solid{
+	color:#8F274b ;
+	padding-left:1rem ;
+}
+select {
+
+	background-color: transparent;
+	border: none;
+	padding-left: 4rem;
+	width: 75%;
+	margin-left: 1.5rem;
+	font-size: 1.2rem;
+}
+select:hover{
+	background-color: #decccb;
+	border-radius: 15px;
+	color: #000;
+}
+select:focus{
+	background-color: #decccb;
+	color: #000;
+}
+
+input[type="submit"]{
+	display: block;
+	border: none;
+	letter-spacing:1px ;
+	border-radius: 35px;
+	margin: 2rem 25%;
+	color: #fff;
+	background:#8F2727 ;
+	padding: 12px 28px;
+	font-size: 16px;
+}
+input[type="submit"]:hover{
+	background: #000;
+}
+.Final-Logo {
+	
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 85%;
+	width: 6rem;
+	height: 7rem;
+	
+}
+.container-map{
+	border-radius: 15px;
+	border: 4px solid #8F2727;
+	height: 26vh;
+	margin-left:30px ;
+	width: 75%;
+}
+
+
+@media screen and (max-width:  450px){
+	header{
+	display: flex;
+	background-color: #000 ;
+	justify-content: center;
+	width: 100%;
+}
+}

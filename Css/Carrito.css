@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body{
+	background-color: 	#ddd6;
+}
+h1{
+	font-family: 'Nanum Brush Script', cursive;
+	font-size: 3.5rem;
+	color: #000;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	display: flex;
+	justify-content: center;
+
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	color: #000;
+	opacity: 1 ;
+	margin: 0;
+}
+.track>h3{
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	color: #aaa;
+	padding: .6rem 0 0 4rem;
+}
+.flex-container{
+	display: flex;
+	justify-content: center;
+}
+
+.item{
+	display: grid;
+	grid-template: 1fr/ minmax(min-content,max-content) 2fr;
+	grid-column-gap: 2rem;
+	border-bottom: 3px solid #ccc;
+}
+.description-container{
+	display: grid;
+	grid-template: repeat(2,1fr)/6fr 1fr;
+	/*border: 4px solid#fc0;*/
+	grid-column-gap: 2rem;
+
+}
+.total-container{
+	position: sticky !important;
+	top: 3rem !important;
+	margin-left: 15rem;
+	display: flex;
+	flex-direction: column;
+}
+.item-icon{
+	display: flex;
+	align-items: center;
+}
+.item-icon>h2{
+	font-family: 'Raleway', sans-serif;
+}
+.cant>h2{
+	font-weight: 500;
+	margin-right: 	2rem;
+}
+.cant>i{
+	margin-left: 1rem !important; 
+}
+.price>h2{
+	color: 	#a00;
+}
+
+.cart{
+	color: #baa !important; 
+	font-size: 2rem !important;
+	margin: 0  !important;
+	cursor: pointer;
+}
+.total-grid-container{
+	padding: 15px;
+	display: grid;
+	grid-template: repeat(3,1fr)/1fr 1fr;
+	/*border: 3px solid #ccc;*/
+	border-radius: 15px;
+	grid-column-gap: 8rem;
+	grid-row-gap: 2rem;
+
+}
+
+
+.items-container{
+	display: grid;
+	grid-template-columns: 	60rem;
+	grid-row-gap: 2rem;
+}
+.item>img{
+
+	margin-left: 2rem;
+	margin-bottom: 	1rem;
+	height: 10rem;
+	border-radius: 15px;
+	
+}
+
+
+#h2-1{
+	opacity: 	.8;
+}
+#h2-2{
+	color: 	#aaa9;
+}
+#h2-1,#h2-2{
+	font-weight: 300;
+}
+.button-check{
+	order: 5;
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+
+}
+.button-check>a{
+	width: 100%;
+}
+
+
+button{
+	cursor: pointer;
+	width: 100%;
+	height: 2.9rem;
+	border-radius: 5px;
+	outline: none;
+	background-color: #8F2727dd ;
+	color: #ccc;
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+	transition: all .6s;
+}
+button:hover{
+	background-color: #500;
+	color: #fff;
+}
+
